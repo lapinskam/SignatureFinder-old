@@ -63,6 +63,7 @@ signature.algorithm <- function(table, x, k=100,m=20,p=0.05,
    }
 
 
+  
    matrix.gene.GOfunction <- function(table){
       names_of_gene <- colnames(dane)[-dim(dane)[2]]
       gene_function <- select(org.Hs.eg.db,
